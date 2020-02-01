@@ -1,5 +1,5 @@
 var preview = document.querySelector('.preview');
-var buttonShow = preview.querySelector('.buttonShow');
+var buttonShow = document.querySelector('.buttonShow');
 var slider = document.querySelector('.slider');
 
 function showSlider() {
