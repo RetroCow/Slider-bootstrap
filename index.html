@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Слайдер</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="preview container-fluid d-flex align-items-center">
+		<button class="btn btn-orange buttonShow text-uppercase d-block mx-auto">Начать демонстрацию</button>
+	</div>
+	<div class="d-none slider position-relative align-items-center">
+		<div class="container-fluid h-100 slide-item first-slide float-left">
+			<div class="row justify-content-center align-items-center h-100">
+				<div class="slide-text col-5 col-lg-7 offset-lg-5 col-xl-5 offset-xl-3">
+					<h1 class="text-center text-lg-left">Этот текст добавлен для демонстрации на странице</h1>
+					<h2 class="d-none d-lg-block text-left">Акция действует с 01.07.18 по 31.07.18</h2>
+					<h2 class="text-center d-lg-none">Тест на внимательность</h2>
+					<a class="btn btn-orange text-uppercase mx-auto mr-lg-3 d-block d-lg-inline-block" href="#">Подробнее</a>
+					<a class="d-none d-lg-inline-block btn btn-gray text-uppercase" href="#">Все акции</a>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid h-100 slide-item second-slide d-none float-left">
+			<div class="row justify-content-center align-items-center h-100">
+				<div class="slide-text col-5 col-lg-7 offset-lg-5 col-xl-5 offset-xl-3">
+					<h1 class="text-center text-lg-left">Этот текст добавлен для демонстрации на странице</h1>
+					<h2 class="d-none d-lg-block text-left">Акция действует с 01.07.18 по 31.07.18</h2>
+					<h2 class="text-center d-lg-none">Тест на внимательность</h2>
+					<a class="btn btn-orange text-uppercase mx-auto mr-lg-3 d-block d-lg-inline-block" href="#">Подробнее</a>
+					<a class="d-none d-lg-inline-block btn btn-gray text-uppercase" href="#">Все акции</a>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid h-100 slide-item third-slide d-none float-left">
+			<div class="row justify-content-center align-items-center h-100">
+				<div class="slide-text col-5 col-lg-7 offset-lg-5 col-xl-5 offset-xl-3">
+					<h1 class="text-center text-lg-left">Этот текст добавлен для демонстрации на странице</h1>
+					<h2 class="d-none d-lg-block text-left">Акция действует с 01.07.18 по 31.07.18</h2>
+					<h2 class="text-center d-lg-none">Тест на внимательность</h2>
+					<a class="btn btn-orange text-uppercase mx-auto mr-lg-3 d-block d-lg-inline-block" href="#">Подробнее</a>
+					<a class="d-none d-lg-inline-block btn btn-gray text-uppercase" href="#">Все акции</a>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid h-100 slide-item fourth-slide d-none float-left">
+			<div class="row justify-content-center align-items-center h-100">
+				<div class="slide-text col-5 col-lg-7 offset-lg-5 col-xl-5 offset-xl-3">
+					<h1 class="text-center text-lg-left">Этот текст добавлен для демонстрации на странице</h1>
+					<h2 class="d-none d-lg-block text-left">Акция действует с 01.07.18 по 31.07.18</h2>
+					<h2 class="text-center d-lg-none">Тест на внимательность</h2>
+					<a class="btn btn-orange text-uppercase mx-auto mr-lg-3 d-block d-lg-inline-block" href="#">Подробнее</a>
+					<a class="d-none d-lg-inline-block btn btn-gray text-uppercase" href="#">Все акции</a>
+				</div>
+			</div>
+		</div>
+		<div class="slide-toggles position-absolute mx-auto">
+			<div class="slide-toggle-lg d-none d-lg-flex justify-content-between">
+				<div class="toggle-item active toggle-item-first d-flex justify-content-between">
+					<div class="toggle-img"></div>
+					<div class="toggle-text">
+						<h4>Акция действует с 01.07.18</h4>
+						<h3>Этот текст добавлен для демонстрации на странице</h3>
+					</div>
+				</div>
+				<div class="toggle-item toggle-item-second d-flex justify-content-between">
+					<div class="toggle-img"></div>
+					<div class="toggle-text">
+						<h4>Акция действует с 01.07.18</h4>
+						<h3>Этот текст добавлен для демонстрации на странице</h3>
+					</div>
+				</div>
+				<div class="toggle-item toggle-item-third d-flex justify-content-between">
+					<div class="toggle-img"></div>
+					<div class="toggle-text">
+						<h4>Акция действует с 01.07.18</h4>
+						<h3>Этот текст добавлен для демонстрации на странице</h3>
+					</div>
+				</div>
+				<div class="toggle-item toggle-item-fourth d-flex justify-content-between">
+					<div class="toggle-img"></div>
+					<div class="toggle-text">
+						<h4>Акция действует с 01.07.18</h4>
+						<h3>Этот текст добавлен для демонстрации на странице</h3>
+					</div>
+				</div>
+			</div>
+			<div class="slide-toggle d-lg-none d-flex justify-content-between">
+				<span class="first-toggle toggle active"></span>
+				<span class="second-toggle toggle"></span>
+				<span class="third-toggle toggle"></span>
+				<span class="fourth-toggle toggle"></span>
+			</div>
+		</div>
+		<div class="slide-back btn position-absolute"></div>
+		<div class="slide-next btn position-absolute"></div>
+	</div>
+</body>
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/script.js"></script>
+</html>
